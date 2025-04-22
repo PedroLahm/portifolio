@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282B28;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+}
+
+header{
+    /*background-color: lightblue;*/
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+}
+
+li{
+    /*background-color: lightgreen;*/
+    list-style: none;
+    margin: 15px;
+}
+
+a{
+    /*background-color: lightcoral;*/
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 10%;
+}
+
+section:nth-of-type(1){
+    /*background-color: lightsalmon;*/
+    width: 35%;
+    text-align: center;
+}
+
+section:nth-of-type(1) img{
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.478);
+}
+
+section:nth-of-type(2){
+    /*background-color: rgb(255, 255, 126);*/
+    width: 64%;
+    padding: 10px;
+}
+
+section:nth-of-type(2) h1{
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+section:nth-of-type(2) h1:nth-of-type(2){
+    color: orange;
+}
+
+section:nth-of-type(2) p{
+    color: lightgray;
+    margin-top: 20px;
+}
+
+
+
+footer{
+    text-align: center;
+    color: lightgray;
+}
