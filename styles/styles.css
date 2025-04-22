@@ -1,36 +1,42 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body{
     background-color: #282B28;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 header{
-    /*background-color: lightblue;*/
+    background-color: lightblue;
+    padding: 10px;
     font-size: 18px;
 }
 
 ul{
+    background-color: blueviolet;
     display: flex;
+
     justify-content: end;
 }
 
 li{
-    /*background-color: lightgreen;*/
+    background-color: yellow;
     list-style: none;
-    margin: 15px;
+    padding: 10px;
+    margin: 5px;
 }
 
 a{
-    /*background-color: lightcoral;*/
-    color: lightgray;
+    color: lightgrey;
     text-decoration: none;
     padding: 10px;
 }
@@ -39,50 +45,30 @@ a{
 
 
 article{
+    background-color: lightgreen;
+    
+    margin: 9.6% 0;
+    
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    gap: 10px;
-    margin: 10%;
+    gap: 5px;
 }
 
-section:nth-of-type(1){
-    /*background-color: lightsalmon;*/
+.profile-pic{
+    background-color: yellow;
+
     width: 35%;
     text-align: center;
 }
 
-section:nth-of-type(1) img{
+.profile-pic img{
     border-radius: 50%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.478);
 }
 
-section:nth-of-type(2){
-    /*background-color: rgb(255, 255, 126);*/
+.profile-title{
+    background-color: green;
     width: 64%;
-    padding: 10px;
 }
-
-section:nth-of-type(2) h1{
-    color: white;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 60px;
-    text-transform: uppercase;
-}
-
-section:nth-of-type(2) h1:nth-of-type(2){
-    color: orange;
-}
-
-section:nth-of-type(2) p{
-    color: lightgray;
-    margin-top: 20px;
-}
-
-
 
 footer{
-    text-align: center;
-    color: lightgray;
+    background-color: lightsalmon;
 }
