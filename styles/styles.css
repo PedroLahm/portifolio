@@ -8,90 +8,96 @@
 
 body{
     background-color: #282B28;
-    width: 100vw;
-    height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main{
+    min-height: 100vh;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
 header{
-    /*background-color: lightblue;*/
-    padding: 10px;
+    border: 3px solid white;
+    min-width: 100vw;
     font-size: 18px;
+    
 }
 
 ul{
-    /*background-color: blueviolet;*/
     display: flex;
-
     justify-content: end;
+    gap: 15px;
+    padding: 10px;
 }
 
 li{
-    /*background-color: yellow;*/
-    list-style: none;
-    padding: 10px;
-    margin: 5px;
+    /*background-color: lightcyan;*/
+    list-style-type: none;
 }
 
 a{
-    color: lightgrey;
+    color: lightgray;
     text-decoration: none;
     padding: 10px;
 }
 
 
-
-
 article{
-    /*background-color: lightgreen;*/
-    
-    margin: 7.9% 0;
-    
+    border: 3px solid white;
+    min-width: 100vw;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.profile-pic{
-    /*background-color: yellow;*/
 
-    width: 33%;
-    text-align: center;
+section{
+    border: 3px solid lightgreen;
 }
 
 .profile-pic img{
     border-radius: 50%;
-    width: 350px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.359);
+    border: 3px solid white;
+    width: 330px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.464);
 }
 
 .profile-title{
-    /*background-color: green;*/
-    width: 59%;
-    color: white;
-    align-content: center;
+    width: 58%;
 }
 
 .profile-title h1{
-    font-size: 65px;
+    color: white;
+    font-size: 75px;
     text-transform: uppercase;
-    line-height: 55px;
-    margin-bottom: 5px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.304);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.375);
 }
 
 .profile-title span{
     color: orange;
-    letter-spacing: 2.1px;
+}
+
+.profile-title p{
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.375);
+    color: lightgray;
 }
 
 
-
-
 footer{
-    /*background-color: lightsalmon;*/
+    border: 3px solid white;
+    min-width: 100vw;
+
     text-align: center;
     color: lightgray;
 }
