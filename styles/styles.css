@@ -16,138 +16,47 @@ main{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
-
+header, article, footer{
+    border: 5px solid white;
+    min-width: 100vw;
+}
 
 header{
-    border: 3px solid white;
-    min-width: 100vw;
-    font-size: 18px;
-    
+    padding: 8px;
 }
 
-header ul{
+nav ul{
+    border: 3px solid lightcoral;
+
     display: flex;
-    justify-content: end;
-    gap: 15px;
-    padding: 10px;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
-header li{
-    /*background-color: lightcyan;*/
+nav li{
+    border: 3px solid lightgreen;
+
     list-style-type: none;
+    padding: 5px;
 }
 
-header a{
+nav a{
+    border: 3px solid lightskyblue;
+
     color: lightgray;
     text-decoration: none;
-    padding: 10px;
-}
-
-
-
-
-/*HOME*/
-article{
-    border: 3px solid white;
-    padding: 15px 0 15px 10px;
-    width: 100vw;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
+    font-size: 18px;
+    padding: 5px 15px;
 }
 
 section{
-    border: 3px solid lightgreen;
+    border: 3px solid lightcoral;
 }
-
-.profile-pic img{
-    border-radius: 50%;
-    border: 3px solid white;
-    width: 330px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.464);
-}
-
-.profile-title{
-    width: 58%;
-}
-
-.profile-title h1{
-    color: white;
-    font-size: 75px;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.375);
-}
-
-.profile-title span{
-    color: orange;
-}
-
-.profile-title p{
-    text-align: center;
-    font-size: 18px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.375);
-    color: lightgray;
-}
-
 
 footer{
-    border: 3px solid white;
-    min-width: 100vw;
-
+    color: lightgray;
     text-align: center;
-    color: lightgray;
-}
-
-
-
-
-/*CURRÍCULO*/
-article#curriculum{
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-div.direction{
-    color: gray;
-    font-weight: 500;
     font-size: 14px;
-}
-
-h1{
-    color: white;
-    font-weight: 400;
-    font-size: 35px;
-}
-
-h2{
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-h4{
-    color: orange;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-section{
-    border: 3px solid white;
-}
-
-section p{
-    color: lightgray;
-}
-
-section li{
-    color: lightgray;
-    list-style-position: inside;
 }
