@@ -15,21 +15,22 @@ body{
 
 
 
+
 header{
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     padding: 10px;
     font-size: 18px;
 }
 
 ul{
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     display: flex;
 
     justify-content: end;
 }
 
 li{
-    background-color: yellow;
+    /*background-color: yellow;*/
     list-style: none;
     padding: 10px;
     margin: 5px;
@@ -45,30 +46,52 @@ a{
 
 
 article{
-    background-color: lightgreen;
+    /*background-color: lightgreen;*/
     
-    margin: 9.6% 0;
+    margin: 7.9% 0;
     
     display: flex;
-    gap: 5px;
+    justify-content: center;
 }
 
 .profile-pic{
-    background-color: yellow;
+    /*background-color: yellow;*/
 
-    width: 35%;
+    width: 33%;
     text-align: center;
 }
 
 .profile-pic img{
     border-radius: 50%;
+    width: 350px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.359);
 }
 
 .profile-title{
-    background-color: green;
-    width: 64%;
+    /*background-color: green;*/
+    width: 59%;
+    color: white;
+    align-content: center;
 }
 
+.profile-title h1{
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 55px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.304);
+}
+
+.profile-title span{
+    color: orange;
+    letter-spacing: 2.1px;
+}
+
+
+
+
 footer{
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
+    text-align: center;
+    color: lightgray;
 }
