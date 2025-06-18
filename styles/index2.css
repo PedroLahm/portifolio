@@ -8,10 +8,11 @@ article{
     padding: 20px 70px;
 }
 
-.direction p{
+.direction p, .direction a{
     color: gray;
     font-weight: 500;
     font-size: 17px;
+    text-decoration: none;
 }
 
 .direction h1{
@@ -33,6 +34,19 @@ h2{
 
 hr{
     margin-bottom: 10px;
+}
+
+div:nth-of-type(1){
+    margin-top: 0;
+}
+
+div{
+    margin-top: 35px;
+}
+
+h3{
+    color: white;
+    margin-bottom: -10px;
 }
 
 h4{
@@ -79,4 +93,9 @@ p{
     margin-top: 8px;
     width: 65px;
     margin-right: 10px;
+}
+
+.info h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
 }
